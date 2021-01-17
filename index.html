@@ -62,14 +62,33 @@
         </div>
     </div>
 
+</header>
+
     <div class="posts">
         <!-- Two buttons in between screen.-->
         <button class="posts-buttons" onclick="window.location.href='./html/postslist.html';">All Posts</button>
         <button id="posts-create-post" class="posts-buttons">Create Post</button>
+
+         <!--Create Post Modal-->
+         <div id="create-post-modal" class="modal">
+            <div class="modal-content modal-create-post">
+                <h2 class="modal-header">Pen Your Post<i id="create-post-modal-close-button" class="fa fa-times" aria-hidden="true"></i></h2>
+                <hr>
+                <form>
+                    <label>Title</label>
+                    <input class="modal-input" name="title" type="text" placeholder="Enter title of your post" required autofocus />
+                    <label>Content</label>
+                  
+                    <textarea class="modal-text-area" placeholder="Enter the contents of your post" required autofocus style="height: 100px;"></textarea>
+               
+                    <button id="create-post-button" class="modal-buttons create-button" name="Create">Create</button>
+                </form>
+            </div>
+        </div>
     </div>
 
 
-    </header>
+   
 
 
 <script src="./scripts/common.js"></script>
