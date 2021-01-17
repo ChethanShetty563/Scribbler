@@ -73,6 +73,13 @@
         <button id="like-button" class=button onclick="likeClicked()"><i class="fa fa-thumbs-up fa-lg"
                 aria-hidden="true"></i> Like</button>
         <p id="like-button-text" class="like-text">Be the first one to like this</p>
+        <div class="comment-area">
+            <textarea id="comment" class="comment-text-area" placeholder="Leave a comment..." value=""></textarea>
+            <button id="comment-button" class="button" onclick="commentClicked('comment')">Comment</button>
+            <h4>All Comments</h4>
+            <div id="comments" class="all-comments">
+            </div>
+        </div>
      </div>
 
     </body>
