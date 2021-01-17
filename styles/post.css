@@ -1,0 +1,16 @@
+.post {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.post-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    border-color: indianred;
+}
+
+.post-description {
+    border-color: indianred;
+}
