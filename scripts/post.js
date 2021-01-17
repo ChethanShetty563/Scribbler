@@ -33,6 +33,8 @@ function commentClicked(comment) {
 }
 
 
+
+
 function load() {
     var authorName = sessionStorage.getItem("postAuthorName");
     var title = sessionStorage.getItem("postTitle");
