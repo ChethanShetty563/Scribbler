@@ -18,3 +18,117 @@ header {
     margin: 0px;
     font-family: 'Ubuntu Mono', monospace;
 }
+.header-buttons {
+    margin: 10px 10px 0px 0px;
+    padding: 2px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 16px 24px;
+    width: 20%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-times {
+    float: right;
+}
+
+.fa-times:hover {
+    color: black;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+hr {
+    width: 100%;
+}
+
+.modal-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal-input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 20px;
+    background-color: lightgray;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: none;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal-buttons {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: green;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    line-height: 1.5;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+
+.not-a-member {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-text-area {
+    margin-top: 5px;
+    height: 500px;
+    background-color: lightgray;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: none;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
