@@ -1,0 +1,116 @@
+body {
+    background-color: #ffeedd;
+}
+
+.posts {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post-card {
+    border-radius: 30px;
+    height: 20%;
+    width: 40%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.post-card:hover {
+    box-shadow: 0 0 5px 5px rgba(35, 35, 35, .5);
+}
+
+.author-name {
+    background-color: white;
+    width: 17%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: grey;
+    padding: 40px 4px;
+    box-sizing: border-box;
+}
+
+.post-card-description {
+    background-color: silver;
+    text-align: justify;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 16px;
+    width: 83%;
+    box-sizing: border-box;
+    height: 170px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+
+.post-title {
+    overflow: hidden;
+    white-space: normal;
+    color: grey;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: left;
+    height: 42px;
+}
+
+.fa-trash {
+    padding: 15px;
+    color: gray;
+}
+
+.fa-trash:hover {
+    cursor: pointer;
+}
+
+.eclipse-icon {
+    overflow: hidden;
+    margin-left: 93%;
+    color: grey;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.post-text {
+    overflow: hidden;
+    white-space: normal;
+    height: 55px;
+    text-align: justify;
+    margin: 15px;
+}
+
+.trash-button {
+    float: right;
+    padding-right: 10px;
+    size: 10px;
+    cursor: pointer;
+}
+
+.buttons-delete-post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.yes-modal-buttons {
+    width: 100px;
+}
+
+.no-modal-buttons {
+    width: 100px;
+    background-color: red;
+}
