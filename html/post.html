@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>ScriBBler - Post</title>
@@ -17,8 +17,8 @@
          <!-- Header -->
     <header>
         <div>
-            <a class="website-title">ScriBBler</a>
-            <h4 class="subheading">Explore, Imagine, Create</h4>
+            <a class="heading">ScriBBler</a>
+            <p class="subheading">Explore, Imagine, Create</p>
         </div>
         <div>
             <button id="header-button-sign-up" class="header-buttons">Sign Up</button>
@@ -60,6 +60,16 @@
         </div>
 
     </header>
+
+     <!-- Container for a single post view-->
+     <div class="post">
+        <h3 id="post-title-id" class="post-title" contenteditable='false'></h3>
+        <div class="post-author">
+            <h4 id="author" class="author-name"></h4>
+            <button id="edit-save-button" class="button edit-button" onclick="editClicked()">Edit <i class="fa fa-edit fa-lg"
+                    aria-hidden="true"></i></button>
+        </div>
+     </div>
 
     </body>
 </html>
