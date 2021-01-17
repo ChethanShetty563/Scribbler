@@ -1,0 +1,20 @@
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    font-family: 'Montez', cursive;
+    font-size: 40px;
+    color: blue;
+}
+.subheading {
+    margin: 0px;
+    font-family: 'Ubuntu Mono', monospace;
+}
