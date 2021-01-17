@@ -43,3 +43,31 @@
 .edit-button {
     margin-top: 10px;
 }
+
+.like-text {
+    margin: 5px;
+}
+
+.comment-text-area {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 100px;
+    border-radius: 5px;
+    font-size: medium;
+    display: block;
+}
+
+.all-comments {
+    background-color: lightgray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.each-comment {
+    margin: 15px;
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+    border-radius: 5px;
+}
