@@ -71,110 +71,110 @@
     <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
 
     <!-- list of all posts starts here -->
-    <div>
+    <div class="posts">
 
         <!-- post 1 starts here -->
-        <div>
-            <div>
-                <p>Srishti Gupta</p>
+        <div class="post-card" id="card-1">
+            <div class="author-name">
+                <p id="postAuthorName1">Srishti Gupta</p>
             </div>
 
-            <div>
-                <div>
-                    <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+            <div class="post-card-description">
+                <div class="title-container">
+                    <p id="postTitle1" class="post-title">‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
+                    <span class="trash-button">
+                        <i class="fa fa-trash fa-lg" aria-hidden="true" onclick="deletePost('card-1')"></i>
                     </span>
                 </div>
-                <p>Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                <p id="postContent1" class="post-text">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
+                <span class="eclipse-icon">
+                    <i class="fa fa-ellipsis-h fa-lg" onclick="openPost(postAuthorName1,postTitle1,postContent1)"></i>
                 </span>
             </div>
         </div>
         <!-- post 1 ends here -->
 
         <!-- post 2 starts here -->
-        <div>
-            <div>
-                <p>Colby Fayock</p>
+        <div class="post-card" id="card-2">
+            <div class="author-name">
+                <p id="postAuthorName2">Colby Fayock</p>
             </div>
 
-            <div>
-                <div>
-                    <p>What is linting and how can it save you time?</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+            <div class="post-card-description">
+                <div class="title-container">
+                    <p id="postTitle2" class="post-title">What is linting and how can it save you time?</p>
+                    <span class="trash-button">
+                        <i class="fa fa-trash fa-lg" aria-hidden="true" onclick="deletePost('card-2')"></i>
                     </span>
                 </div>
-                <p>One of the biggest challenges in software development is time. It’s something we can’t easily get more of, but linting can help us make the most out of the time we have.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                <p id="postContent2" class="post-text">One of the biggest challenges in software development is time. It’s something we can’t easily get more of, but linting can help us make the most out of the time we have.</p>
+                <span class="eclipse-icon">
+                    <i class="fa fa-ellipsis-h fa-lg" onclick="openPost(postAuthorName2,postTitle2,postContent2)"></i>
                 </span>
             </div>
         </div>
         <!-- post 2 ends here -->
 
         <!-- post 3 starts here -->
-        <div>
-            <div>
-                <p>Yazeed Bzadough</p>
+        <div class="post-card" id="card-3">
+            <div class="author-name">
+                <p id="postAuthorName3">Yazeed Bzadough</p>
             </div>
 
-            <div>
-                <div>
-                    <p>How to Get More Views on Your Tech Blog</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+            <div class="post-card-description">
+                <div class="title-container">
+                    <p id="postTitle3" class="post-title">How to Get More Views on Your Tech Blog</p>
+                    <span class="trash-button">
+                        <i class="fa fa-trash fa-lg" aria-hidden="true" onclick="deletePost('card-3')"></i>
                     </span>
                 </div>
-                <p>If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable name in the industry.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                <p id="postContent3" class="post-text">If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable name in the industry.</p>
+                <span class="eclipse-icon">
+                    <i class="fa fa-ellipsis-h fa-lg" onclick="openPost(postAuthorName3,postTitle3,postContent3)"></i>
                 </span>
             </div>
         </div>
         <!-- post 3 ends here -->
 
         <!-- post 4 starts here -->
-        <div>
-            <div>
-                <p>Cedd Burge</p>
+        <div class="post-card" id="card-4">
+            <div class="author-name">
+                <p id="postAuthorName4">Cedd Burge</p>
             </div>
 
-            <div>
-                <div>
-                    <p>How to write easily describable code</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+            <div class="post-card-description">
+                <div class="title-container">
+                    <p id="postTitle4" class="post-title">How to write easily describable code</p>
+                    <span class="trash-button">
+                        <i class="fa fa-trash fa-lg" aria-hidden="true" onclick="deletePost('card-4')"></i>
                     </span>
                 </div>
-                <p>When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people will map to different words, which
+                <p id="postContent4" class="post-text">When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people will map to different words, which
                     leads to confusion when discussing the code.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                <span class="eclipse-icon">
+                    <i class="fa fa-ellipsis-h fa-lg" onclick="openPost(postAuthorName4,postTitle4,postContent4)"></i>
                 </span>
             </div>
         </div>
         <!-- post 4 ends here -->
 
         <!-- post 5 starts here -->
-        <div>
-            <div>
-                <p>Srishti Gupta</p>
+        <div class="post-card" id="card-5">
+            <div class="author-name">
+                <p id="postAuthorName5">Srishti Gupta</p>
             </div>
 
-            <div>
-                <div>
-                    <p>Everything you should know about ‘module’ & ‘require’ in Node.js</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+            <div class="post-card-description">
+                <div class="title-container">
+                    <p id="postTitle5" class="post-title">Everything you should know about ‘module’ & ‘require’ in Node.js</p>
+                    <span class="trash-button">
+                        <i class="fa fa-trash fa-lg" aria-hidden="true" onclick="deletePost('card-5')"></i>
                     </span>
                 </div>
-                <p>Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
+                <p id="postContent5" class="post-text">Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
                     named xyz.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                <span class="eclipse-icon">
+                    <i class="fa fa-ellipsis-h fa-lg" onclick="openPost(postAuthorName5,postTitle5,postContent5)"></i>
                 </span>
             </div>
         </div>
