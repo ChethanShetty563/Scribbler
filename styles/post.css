@@ -14,3 +14,32 @@
 .post-description {
     border-color: indianred;
 }
+
+.post-author {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.author-name {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+.button {
+    background-color: #f52749;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.button:hover {
+    box-shadow: 0 0 5px 5px rgba(133, 130, 130, 0.3);
+}
+
+.edit-button {
+    margin-top: 10px;
+}
