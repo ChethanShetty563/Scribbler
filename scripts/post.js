@@ -32,6 +32,57 @@ function commentClicked(comment) {
     document.getElementById('comment').value = "";
 }
 
+function editClicked() {
+    toggleEditButton();
+    toggleContentEditable();
+    toggleBorder();
+}
+
+
+function toggleEditButton() {
+    var edit_button = document.getElementById('edit-save-button');
+    if (isSave === false) {
+        edit_button.innerHTML = 'Save <i class="fa fa-save fa-lg" aria-hidden="true">';
+        isSave = true;
+    } else {
+        edit_button.innerHTML = 'Edit <i class="fa fa-edit fa-lg" aria-hidden="true">';
+        isSave = false;
+    }
+}
+
+
+function toggleContentEditable() {
+    var post_desc = document.getElementById('post-desc');
+    var content_edit = post_desc.getAttribute('contenteditable');
+    var title = document.getElementById('post-title-id');
+    var title_edit = title.getAttribute('contenteditable');
+    if (content_edit === "true" && title_edit === "true") {
+        post_desc.setAttribute('contenteditable', false);
+        title.setAttribute('contenteditable', false);
+    } else {
+        post_desc.setAttribute('contenteditable', true);
+        title.setAttribute('contenteditable', true);
+    }
+}
+
+
+function toggleBorder() {
+    var post_desc = document.getElementById('post-desc');
+    var title = document.getElementById('post-title-id');
+    console.log(post_desc.style.border);
+    if (post_desc.style.border === "") {
+        post_desc.style.border = "solid";
+    } else {
+        post_desc.style.border = "";
+    }
+
+    if (title.style.border === "") {
+        title.style.border = "solid";
+    } else {
+        title.style.border = "";
+    }
+}
+
 
 
 
