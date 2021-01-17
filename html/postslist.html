@@ -20,6 +20,54 @@
 <body>
     <!-- TODO: Include code for header here -->
 
+    <header>
+        <div>
+            <a class="website-title">ScriBBler</a>
+            <h4 class="subheading">Explore, Imagine, Create</h4>
+        </div>
+        <div>
+            <button id="header-button-sign-up" class="header-buttons">Sign Up</button>
+            <button id="header-button-sign-in" class="header-buttons">Sign In</button>
+        </div>
+
+        <!--Sign Up Modal-->
+        <div id="sign-up-modal" class="modal">
+            <div class="modal-content">
+                <h2 class="modal-header">Get Started <i id="signup-modal-close-button" class="fa fa-times" aria-hidden="true"></i></h2>
+                <hr>
+                <form>
+                    <label>Name</label>
+                    <input class="modal-input" name="name" type="text" placeholder="Enter your name" required autofocus />
+                    <label>Username</label>
+                    <input class="modal-input" name="username" type="text" placeholder="Enter your name" required autofocus />
+                    <label>Password</label>
+                    <input class="modal-input" name="username" type="password" placeholder="Enter your password" required autofocus />
+                    <label>Confirm Password</label>
+                    <input class="modal-input" name="username" type="password" placeholder="Re-enter your password" required autofocus />
+                    <button id="modal-button-signup" class="modal-buttons" name="Sign Up">Sign Up</button>
+                </form>
+            </div>
+        </div>
+
+        <!--Sign In Modal-->
+        <div id="sign-in-modal" class="modal">
+            <div class="modal-content">
+                <h2 class="modal-header">Welcome Back!<i id="signin-modal-close-button" class="fa fa-times" aria-hidden="true"></i></h2>
+                <hr>
+                <form>
+                    <label>Username</label>
+                    <input class="modal-input" name="username" type="text" placeholder="Enter your name" required autofocus />
+                    <label>Password</label>
+                    <input class="modal-input" name="username" type="password" placeholder="Enter your password" required autofocus />
+                    <button id="modal-button-signin" class="modal-buttons" name="Sign In">Sign In</button>
+                    <div class="not-a-member">Not a member?
+                        <pre> </pre><a id="signin-href" href="#sign-up-modal"> Sign Up</a></div>
+                </form>
+            </div>
+        </div>
+
+    </header>
+
     <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
 
     <!-- list of all posts starts here -->
