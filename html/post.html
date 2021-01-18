@@ -15,17 +15,17 @@
     <body>
 
          <!-- Header -->
-    <header>
-        <div>
-            <a class="heading">ScriBBler</a>
-            <p class="subheading">Explore, Imagine, Create</p>
-        </div>
-        <div>
-            <button id="header-button-sign-up" class="header-buttons">Sign Up</button>
-            <button id="header-button-sign-in" class="header-buttons">Sign In</button>
-        </div>
-
-        <div id="sign-up-modal" class="modal">
+         <header>
+            <div class="logo">
+                <a class="heading">ScriBBler</a>
+                <p class="subheading">Explore, Imagine, Create</p>
+            </div>
+            <div class="buttons">
+                <button id="button-sign-up" class="header-buttons">Sign Up</button>
+                <button id="button-sign-in" class="header-buttons">Sign In</button>
+            </div>
+         <!--Sign Up Modal-->
+         <div id="sign-up-modal" class="modal">
             <div class="modal-content">
                 <h2 class="modal-header">Get Started <i id="signup-modal-close-button" class="fa fa-times" aria-hidden="true"></i></h2>
                 <hr>
@@ -42,7 +42,8 @@
                 </form>
             </div>
         </div>
-
+    
+        <!--Sign In Modal-->
         <div id="sign-in-modal" class="modal">
             <div class="modal-content">
                 <h2 class="modal-header">Welcome Back!<i id="signin-modal-close-button" class="fa fa-times" aria-hidden="true"></i></h2>
@@ -58,7 +59,7 @@
                 </form>
             </div>
         </div>
-
+    
     </header>
 
      <!-- Container for a single post view-->
